@@ -1,0 +1,467 @@
+*
+{
+  padding: 0;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+
+.loginf
+{
+    font-family: sans-serif;
+    font-style: normal;
+    color: brown;
+    margin: -270px 0px 0px 0px;
+   
+}
+
+.leaf
+{
+    height: 270px;
+    width: 27%;
+    margin: 20px 440px 0px 10px;
+}
+.form
+{
+    height: 300px;
+    width: 40%;
+    background-image: url(../img/lightbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid;
+    border-radius: 15px; 
+    margin-top: 200px;
+    position: fixed;
+    margin-left: 400px;
+}
+body{
+    background-image: url(../img/background.jpeg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+
+label{
+    margin:0px 140px 0px 0px;
+}
+.label
+{
+    margin: 0px 180px 0px 0px;
+    
+}
+input{
+    width: 50%;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 5px;
+    margin-top: 4px;
+}
+input::placeholder
+{
+    padding-left: 10px;
+    color: green;
+}
+section
+{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 40px;
+}
+.form-errors
+{
+    margin-top: 5px;
+    color:black;
+    margin-right: 110px;
+   
+}
+button{
+    height: 30px;
+    width: 50%;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+/* NAVBAR */
+.nav
+{
+    height: 50px;
+    width: 20%;
+    background-color: rgb(63, 9, 9);
+    margin-top: 280px;
+    display: block;
+    margin-left: 50px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    color: white;
+   
+}
+.ppp
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+ /* ADDTASK FORM */
+.mainFormBlock
+{
+    background-color: rgb(15, 100, 19);
+    width: 40%;
+    height: 550px;
+    border-radius: 2px;
+    margin: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+.form-content{
+    margin-top: 20px;
+
+}
+.form-content label
+{
+    color: whitesmoke;
+    display: block;
+    font-size: 30px;
+    padding: 10px;
+}
+.form-content input,textarea
+{
+    border: none;
+    border: 1px solid rgb(118, 60, 172) ;
+    width: 90%;
+    border-radius: 3px;
+    padding: 10px;
+    margin-left: 15px;
+    
+}
+
+.form-content select
+{
+    margin-left: 15px;
+}
+
+.form-content button
+{
+    margin-left: 15px;
+    padding: 10px;
+}
+.category
+{
+    height: 20px;
+    width: 30%;
+    background-color: white;
+
+}
+
+.buttons
+{
+    height: 30px;
+    width: 90%;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.buttons p{
+    margin-top: -6px;
+    color: black;
+    font-size: 16px;
+}
+
+  /* display css */
+.displaySection 
+{
+    width:40%;
+    color: whitesmoke;
+
+}
+.pp
+{
+    height: 60px;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: lawngreen;
+}
+.pp p{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.class
+{
+    background-color: greenyellow;
+    color: white;
+    height: 70px;
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 430px;
+    border: 3px solid brown;
+    border-radius: 10px;
+   
+}
+
+.fetcg
+{
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    color: purple;
+    margin-top: 10px;
+    
+}
+.block
+{
+    height: 200px;
+    width: 100%;
+    background-color: darkred;
+}
+
+.viewm
+{
+    height: 30px;
+    width: 40%;
+    margin-left: 20px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    
+}
+
+.fdc
+{
+    height: 50px;
+    width: 100%;
+   top: 10px;
+    background-color: black;
+    color: white;
+
+}
+.view
+{
+    background-color: brown;
+    color: aliceblue;
+    width: 30%;
+    margin: 20px 0px 0px 100px;
+}
+.back
+{
+    background-color: brown;
+    color: aliceblue;
+    width: 30%;
+    margin: 10px 0px 0px 100px;
+}
+
+
+.selectDisplayBlock{
+    height: 50px;
+    background-color:whitesmoke;
+    border: 1px solid  cadetblue;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: whitesmoke;
+
+}
+.selectDisplayBlock label {
+  /* //  display: inline; */
+    font-size: 20px;
+    padding: 1px;
+    margin: 1px;
+}
+.selectDisplayBlock span{
+    font-size: 18px;
+    padding: 5px;
+
+}
+.displayBlock{
+    width:90%;
+    height:400px;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.displayContent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.output{
+    width: 200x;
+    height:150px;
+    border: 1px solid cadetblue;
+    background-color: cadetblue;
+    color: whitesmoke;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 14px ;
+    border: 1.5px solid black;
+}
+.output h1{
+    padding: 10px;
+    text-transform: capitalize;
+}
+
+.Update
+{
+    height:200px;
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid;
+    border-radius: 15px; 
+    margin-top: 200px;
+    position: fixed;
+    margin-left: 400px;
+}
+.upn
+{
+    height: 20px;
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+/* MOBILE VIEW */
+ @media only screen and (max-width:667px)
+{
+     body{
+     background-image: url(../img/background.jpeg); 
+     background-repeat:no-repeat ; 
+     background-size: 100% 100%; 
+     background-color: green;
+    
+ }  
+ 
+.nav
+{
+    height: 40px;
+    width: 50%;
+    background-color: rgb(63, 9, 9);
+    margin-top: 350px;
+    left: 40px;
+    position: absolute;
+    margin-left: 50px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    color: white;
+   
+}
+.ppp
+{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.loginf
+{
+    font-family: sans-serif;
+    font-style: normal;
+    color: brown;
+     margin: -270px 0px 0px 124px; 
+     position:fixed;
+   
+}
+
+.leaf
+{
+    height: 270px;
+    width: 27%;
+    margin: 20px 440px 0px 10px;
+}
+.form
+{
+    height: 300px;
+    width: 95%;
+    background-image: url(../img/Lightbg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid;
+    border-radius: 15px; 
+    position: sticky;
+     margin: 140px 0px 0px 0px; 
+}
+
+section
+{
+    
+ margin-left: 55px;
+}
+
+.email
+{
+    margin-top: -220px;
+    
+}
+
+label{
+    margin:20px 80px 0px 0px;
+}
+.label
+{
+    margin: 0px 110px 0px 0px;
+    
+}
+input{
+    width: 60%;
+    height: 30px;
+    border: 2px solid transparent;
+    border-radius: 7px;
+    padding: 5px;
+    margin-top: 4px;
+}
+ 
+.form-errors
+{
+ margin-left: 54px; 
+}
+
+
+button{
+    height: 30px;
+    width: 60%;
+   
+}
+
+.mainFormBlock
+{
+    background-color: rgb(15, 100, 19);
+    width: 90%;
+    height: 550px;
+    border-radius: 2px;
+    margin: 20px;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    opacity: 0.9;
+}
+.class{
+    background-color: greenyellow;
+    color: white;
+    height: 70px;
+    width: 80%;
+    margin-left: -20px;
+    border: 3px solid brown;
+    border-radius: 10px;
+}
+
+} 

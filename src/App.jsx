@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 import Loginform from './Loginform'
-import Displayprofile from './Displayprofile.Jsx'
+import Displayprofile from './Displayprofile'
 import Update from './Update'
 
 const App = () => {
